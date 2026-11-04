@@ -1,0 +1,29 @@
+PROJECT_NAME           = "Matrix Calculator"
+OUTPUT_DIRECTORY       = docs
+INPUT                  = include
+FILE_PATTERNS          = *.h
+RECURSIVE              = YES
+EXTRACT_ALL            = YES
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+# --- Отключаем лишние папки и файлы ---
+SOURCE_BROWSER         = NO
+INLINE_SOURCES         = NO
+SHOW_DIRECTORIES       = NO
+SHOW_NAMESPACES        = NO
+
+# --- Отключаем поиск (уберёт папку search) ---
+SEARCHENGINE           = NO
+
+# --- Отключаем легенды графов ---
+GENERATE_LEGEND        = NO
+
+# --- Упрощаем меню ---
+GENERATE_TREEVIEW      = NO
+
+# --- Оставляем графы для функций ---
+HAVE_DOT               = YES
+CALL_GRAPH             = NO
+CALLER_GRAPH           = NO
+INCLUDE_GRAPH          = YES
