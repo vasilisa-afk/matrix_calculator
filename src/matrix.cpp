@@ -3,12 +3,11 @@
 #include <iomanip>
 #include <stdexcept>
 
-namespace matrix_calc {
 
 Matrix create_matrix(int rows, int cols) {
     if (rows <= 0 || cols <= 0) {
         throw std::invalid_argument("Matrix dimensions must be positive");
-    }
+   
     Matrix mat;
     mat.rows = rows;
     mat.cols = cols;
