@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main() {
-    using namespace matrix_calc;
+   
 
     Matrix A = create_matrix(2, 2);
     A.data[0][0] = 1.5; A.data[0][1] = 9.2;
