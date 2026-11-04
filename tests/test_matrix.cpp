@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include "matrix.h"
 
-using namespace matrix_calc;
+
 
 TEST(MatrixTest, MaxElement_NormalCase) {
     Matrix A = create_matrix(2, 2);
